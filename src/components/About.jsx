@@ -4,7 +4,7 @@ import Section from './Section';
 export default function About() {
     return ( 
             <Section name="about">
-            <h2>About Me</h2>
+            <h1 className="text-3xl text-emerald-600 font-bold underline">About Me</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec felis a libero consequat
                 imperdiet. Nulla facilisi. Integer ut risus vel mi accumsan iaculis.
