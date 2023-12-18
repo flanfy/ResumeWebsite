@@ -9,7 +9,7 @@ export default function Header() {
           <Link to="about" spy={true} smooth={true} offset={-70} duration={500} className="text-white mx-2 cursor-pointer">
               About
             </Link>
-            <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className="text-white mx-2 cursor-pointer">
+            <Link to="experience" spy={true} smooth={true} offset={-70} duration={500} className="text-white mx-2 cursor-pointer">
               Experience
             </Link>
             <Link to="projects" spy={true} smooth={true} offset={-70} duration={500} className="text-white mx-2 cursor-pointer">
