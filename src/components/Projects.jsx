@@ -1,15 +1,19 @@
 import React from 'react';
 import Section from './Section';
+import Project from './Project';
+import { PROJECT } from './data';
 
 export default function Projects() {
     return ( 
             <Section name="projects">
-            <h2 className="text-3xl text-green-300 font-bold">Projects</h2>
-            1
-            <div className='text-white'>
-                Temp
-            </div>
-            {/* Add your about content here */}
+                <h2 className="text-3xl text-green-300 font-bold">Projects</h2>
+                {PROJECT.map((project, index) => (
+                    <Project
+                    key={index}
+                    title={project.title}
+                    description={project.description}
+                    />
+                ))}
             </Section>
       );
   }
