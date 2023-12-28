@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from './Section';
 import Project from './Project';
-import { PROJECT } from './data';
+import { PROJECT } from '../data';
 
 export default function Projects() {
     return ( 

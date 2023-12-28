@@ -1,6 +1,6 @@
 import React from 'react';
 import Section from './Section';
-import { EXPERIENCE } from './data';
+import { EXPERIENCE } from '../data';
 import Job from './Job';
 
 export default function Experience() {
