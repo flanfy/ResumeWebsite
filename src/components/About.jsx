@@ -6,7 +6,7 @@ import profile from '../assets/profile.jpg'
 export default function About() {
     return ( 
             <Section name="about">
-                <div className="flex flex-col lg:flex-row items-center">
+                <div className="flex flex-col items-center">
                     <h1 className="text-7xl text-green-300 font-bold">Phillip Lu</h1>
                     <img
                         src={profile}
