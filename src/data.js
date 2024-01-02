@@ -64,13 +64,13 @@ export const IMAGES = [
       program: "Computer Programmer/Analyst",
       degree: "Ontario College Advanced Diploma",
       location: "Waterloo, ON",
-      date: "September 2020 - April 2023",
+      date: "April 2023",
     },
     {
       school: "University of Waterloo",
       program: "Biochemistry Co-op",
       degree: "Bachelor of Science",
       location: "Waterloo, ON",
-      date: "September 2013 - June 2019",
+      date: "June 2019",
     },
   ]

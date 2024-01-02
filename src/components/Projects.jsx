@@ -5,8 +5,7 @@ import { PROJECT } from '../data';
 
 export default function Projects() {
     return ( 
-            <Section name="projects">
-                <h2 className="text-3xl text-green-300 font-bold">Projects</h2>
+            <Section name="Projects">
                 {PROJECT.map((project, index) => (
                     <Project
                     key={index}
