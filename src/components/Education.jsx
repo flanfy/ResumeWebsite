@@ -5,15 +5,16 @@ import Degree from './Degree';
 
 export default function Education() {
     return (
-        <Section name="Education">
-          {EDUCATION.map((educationDetail, index) => (
+        <Section name="education">
+          <h2 className="text-3xl text-green-300 font-bold">Education</h2>
+          {EDUCATION.map((wah, index) => (
             <Degree
               key={index}
-              school={educationDetail.school}
-              program={educationDetail.program}
-              degree={educationDetail.degree}
-              location={educationDetail.location}
-              date={educationDetail.date}
+              school={wah.school}
+              program={wah.program}
+              degree={wah.degree}
+              location={wah.location}
+              date={wah.date}
             />
           ))}
         </Section>

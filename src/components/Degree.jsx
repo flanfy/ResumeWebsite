@@ -1,9 +1,9 @@
 export default function Degree({ school, program, degree, location, date }) {
     return (
-        <div>
+        <div className="mb-8 text-white">
           <h3 className="text-xl font-semibold">{degree}</h3>
-          <p>{program}, {school}</p>
-          <p>{location}, {date}</p>
+          <p>{school} | {program}</p>
+          <p>{location} | {date}</p>
         </div>
     );
 } 
