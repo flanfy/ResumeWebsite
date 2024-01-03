@@ -4,9 +4,9 @@ import { useTheme } from './ThemeContext';
 
 const ThemeToggle = () => {
   const { toggleTheme } = useTheme();
-
+  const { currentTheme } = useTheme();
   return (
-    <button onClick={toggleTheme} className="bg-gray-300 p-2 rounded">
+    <button onClick={toggleTheme} className={`${currentTheme.text}`}>
       Theme
     </button>
   );

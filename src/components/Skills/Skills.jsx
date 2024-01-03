@@ -15,11 +15,10 @@ export default function Skills() {
 
     return (
         <Section name="Skills">
-            <div className="flex">
-                {/* Language Card */}
-                <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Languages</h5>
-                    <div className="font-normal text-gray-700 dark:text-gray-400">
+            <div className="flex mt-4">
+                <div className={`mr-4 max-w-sm p-6 border border-gray-200 rounded-lg shadow dark:border-gray-700 ${currentTheme.card}`}>
+                    <h5 className={`mb-2 text-2xl font-bold tracking-tight ${currentTheme.text}`}>Languages</h5>
+                    <div className="font-normal text-gray-900 dark:text-gray-400">
                         <ul>
                             {splitList(LANGUAGES)[0].map((language, index) => (
                                 <li key={index}>{language}</li>
@@ -28,8 +27,8 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Technologies</h5>
+                <div className={`ml-4 max-w-sm p-6  border border-gray-200 rounded-lg shadow dark:border-gray-700 ${currentTheme.card}`}>
+                    <h5 className={`mb-2 text-2xl font-bold tracking-tight text-center ${currentTheme.text}`}>Technologies</h5>
                     <div className="flex flex-wrap">
                         <ul className="mr-4">
                             {TECH.map((tech, index) => (
