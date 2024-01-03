@@ -3,11 +3,52 @@ import profile from './assets/profile.jpg'
 export const IMAGES = [
     {
       image: profile,
-      // title: 'profile',
-      // description:
-      //   'Profile.',
     }
   ];
+
+  export const LANGUAGES = [
+    "HTML",
+    "CSS",
+    "C#",
+    "PHP",
+    "Liquid",
+    "JSON",
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "Java",
+    "SQL",
+    "PL/SQL",
+    "TSQL",
+    "VBA"
+  ]
+
+  export const TECH = [
+    "Git",
+    "Linux",
+    "Jira",
+    "ASP.NET",
+    "MVC",
+    "Blazor WebAssembly",
+    "REST API",
+    "Selenium",
+    "NUnit",
+    "Android Studio",
+    "Docker",
+    "React",
+    "NodeJS",
+    "Express",
+    "Apache",
+    "Shopify",
+    "Bootstrap",
+    "Snowflake",
+    "ETL",
+    "Power BI",
+    "PostgreSQL",
+    "Tableau",
+    "Microsoft Excel",
+    "Visual Studio Code"
+  ]
 
   export const EXPERIENCE = [
     {
@@ -25,7 +66,7 @@ export const IMAGES = [
       title: "Research Assistant",
       company: "Research Assistant",
       location: "Waterloo, ON",
-      date: "January 2015 - July 2020",
+      date: "January 2015 - July 2018",
       responsibilities: [
         "Conducted extensive research and analyzed complex data sets to draw meaningful conclusions, resulting in a published scientific paper titled ”Mechanistic Insights into the Cytotoxicity of Graphene Oxide Derivatives in Mammalian Cells.”",
         "Demonstrated leadership by training new co-op students, providing guidance on research methodologies and data analysis techniques"
