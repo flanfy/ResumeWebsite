@@ -4,7 +4,7 @@ export default function Form() {
     const { currentTheme } = useTheme();
 
     return (
-        <form name="contact" className="max-w-md p-4 rounded-md" data-netlify="true">
+        <form name="contact" className="max-w-md p-4 rounded-md" method="POST" netlify>
             <p className="mb-4">
                 <input
                 type="text"
