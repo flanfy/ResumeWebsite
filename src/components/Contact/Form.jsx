@@ -5,6 +5,7 @@ export default function Form() {
 
     return (
         <>
+        <form name='contact' netlify hidden />
         <form name="contact" className="max-w-md p-4 rounded-md" method="POST" netlify>
             <input type="hidden" name="form-name" value="contact"></input>
             <p className="mb-4">
@@ -31,7 +32,7 @@ export default function Form() {
                 type="submit"
                 class="bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
                 >
-                Send
+                Submit
                 </button>
             </p>
         </form>
