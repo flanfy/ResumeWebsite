@@ -63,16 +63,6 @@ export const IMAGES = [
       ],
     },
     {
-      title: "Research Assistant",
-      company: "Research Assistant",
-      location: "Waterloo, ON",
-      date: "January 2015 - July 2018",
-      responsibilities: [
-        "Conducted extensive research and analyzed complex data sets to draw meaningful conclusions, resulting in a published scientific paper titled ”Mechanistic Insights into the Cytotoxicity of Graphene Oxide Derivatives in Mammalian Cells.”",
-        "Demonstrated leadership by training new co-op students, providing guidance on research methodologies and data analysis techniques"
-      ],
-    },
-    {
       title: "Database Migration Specialist",
       company: "OpenText Corporation",
       location: "Waterloo, Ontario",
@@ -80,6 +70,16 @@ export const IMAGES = [
       responsibilities: [
         "Executed a critical role in a database migration project, ensuring the seamless transition of data without errors. This involved meticulously reviewing and validating data to guarantee accuracy and completeness, resulting in the successful completion of the migration within the established timeframe.",
         "Collaborated closely with international project managers to address potential challenges, provide status updates, and ensure alignment with project goals."
+      ],
+    },
+    {
+      title: "Research Assistant",
+      company: "Research Assistant",
+      location: "Waterloo, ON",
+      date: "January 2015 - July 2018",
+      responsibilities: [
+        "Conducted extensive research and analyzed complex data sets to draw meaningful conclusions, resulting in a published scientific paper titled ”Mechanistic Insights into the Cytotoxicity of Graphene Oxide Derivatives in Mammalian Cells.”",
+        "Demonstrated leadership by training new co-op students, providing guidance on research methodologies and data analysis techniques."
       ],
     },
   ]
