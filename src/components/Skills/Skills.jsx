@@ -16,11 +16,11 @@ export default function Skills() {
     return (
         <Section name="Skills">
             <div className="flex mt-4">
-                <div className={`mr-4 max-w-sm p-6 border border-gray-200 rounded-lg shadow dark:border-gray-700 ${currentTheme.card}`}>
+                <div className={`mr-4 p-6 border border-gray-200 rounded-lg shadow dark:border-gray-700 ${currentTheme.card}`}>
                     <h5 className={`mb-2 text-2xl font-bold tracking-tight ${currentTheme.text}`}>Languages</h5>
                     <div className="font-normal text-gray-900 dark:text-gray-400">
                         <ul>
-                            {splitList(LANGUAGES)[0].map((language, index) => (
+                            {LANGUAGES.map((language, index) => (
                                 <li key={index}>{language}</li>
                             ))}
                         </ul>
