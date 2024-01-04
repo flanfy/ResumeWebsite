@@ -65,7 +65,7 @@ export const IMAGES = [
     {
       title: "Database Migration Specialist",
       company: "OpenText Corporation",
-      location: "Waterloo, Ontario",
+      location: "Waterloo, ON",
       date: "February 2017 - August 2017",
       responsibilities: [
         "Executed a critical role in a database migration project, ensuring the seamless transition of data without errors. This involved meticulously reviewing and validating data to guarantee accuracy and completeness, resulting in the successful completion of the migration within the established timeframe.",
