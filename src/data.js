@@ -57,9 +57,10 @@ export const IMAGES = [
       location: "Cambridge, ON",
       date: "January 2023 - July 2023",
       responsibilities: [
-        "Led capstone project team and managed the Jira board according to Agile methodology, ensuring efficient project progress and timely deliverables. The project’s success led to continued freelance work.",
-        "Implemented a combination of existing apps, theme development using HTML, CSS, Liquid, JSON, and a custom Node.js app to create a highly functional and visually appealing website with a custom inventory system.",
-        "Improved website speed for desktop and mobile by 20%."
+        "Led capstone project team and managed the Jira board according to Agile methodology, ensuring efficient project progress. The project’s success led to continued freelance work.",
+        "Created a highly functional and visually appealing website with a custom inventory system using Node.js and PostgreSQL in Docker containers as back-end and Liquid for front-end.",
+        "Identified image resolution as a key factor affecting website performance. Optimized images, resulting in 20% increased performance.",
+        "Developed a Python web scraper to extract, transform, and load product data.",
       ],
     },
     {
