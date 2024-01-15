@@ -17,7 +17,7 @@ export default function About() {
                     />
                     <div className={`${currentTheme.text}`}>
                         <p>
-                            Hi! Welcome to my resume website made using React. I'm a full-stack developer with 1 year of work experience. I also have 3 years of research and data analysis experience. Flexible and willing to take other positions that may better fit my qualifications.
+                            Hi! Welcome to my resume website made using React. I'm a full-stack developer with 1 year of full-stack work experience. I also have 3 years of research and data analysis experience. Flexible and willing to take other positions that may better fit my qualifications.
                         </p>
                     </div>
                 </div>

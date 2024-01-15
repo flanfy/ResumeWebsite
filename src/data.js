@@ -58,9 +58,9 @@ export const IMAGES = [
       date: "January 2023 - July 2023",
       responsibilities: [
         "Led capstone project team and managed the Jira board according to Agile methodology, ensuring efficient project progress. The project’s success led to continued freelance work.",
-        "Created a highly functional and visually appealing website with a custom inventory system using Node.js and PostgreSQL in Docker containers as back-end and Liquid for front-end.",
-        "Identified image resolution as a key factor affecting website performance. Optimized images, resulting in 20% increased performance.",
-        "Developed a Python web scraper to extract, transform, and load product data.",
+        "Developed a highly functional and visually appealing website with a custom inventory system using Node.js and PostgreSQL in Docker containers as back-end and Liquid for front-end.",
+        "Identified image resolution as a key factor affecting website performance and performed optimization, resulting in 20% increased performance",
+        "Developed a Python web scraper to extract, transform, and load product data into the new site.",
       ],
     },
     {
@@ -69,7 +69,7 @@ export const IMAGES = [
       location: "Waterloo, ON",
       date: "February 2017 - August 2017",
       responsibilities: [
-        "Executed a critical role in a database migration project, ensuring the seamless transition of data without errors. This involved meticulously reviewing and validating data to guarantee accuracy and completeness, resulting in the successful completion of the migration within the established timeframe.",
+        "Executed a critical role in a database migration contract, ensuring the seamless transition of data without errors. This involved meticulously reviewing and validating data to guarantee accuracy and completeness, resulting in the successful completion of the migration within the established timeframe.",
         "Collaborated closely with international project managers to address potential challenges, provide status updates, and ensure alignment with project goals."
       ],
     },
@@ -87,16 +87,25 @@ export const IMAGES = [
 
   export const PROJECT = [
     {
-      title: "Blazor Shop",
-      description: "• Built a full-stack E-Commerce website using C#, Blazor WebAssembly, Web API, .NET 7, SQL Server, and Stripe as payment processor.",
+      title: "Resume Website",
+      description: [
+        "Developed a resume website using React and Tailwind CSS, hosted on Netlify.",
+      ]
     },
     {
-      title: "Wordle Clone",
-      description: "• Recreated the game of Wordle using Javascript.",
+      title: "E-commerce Store",
+      description: [
+        "Built a full-stack E-Commerce website using C#, Blazor WebAssembly, Web API, .NET 7, SQL Server, and Stripe as payment processor.",
+        "Implemented authentication with JSON Web Tokens.",
+        "Integrated Stripe as Payment processor.",
+      ]
     },
     {
       title: "Python Web Scraper",
-      description: "• Built a Python web scraper that exports data of all products in a website into a CSV file.",
+      description: [
+        "Developed a web scraper to extract, transform, and load product data into the new site.",
+        "Scraped data into CSV file with Beautiful Soup library and cleaned data Using Pandas library.",
+      ]
     },
   ]
 

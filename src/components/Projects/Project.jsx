@@ -6,7 +6,11 @@ export default function Project({title, description}) {
   return (
         <div className={`mb-8 ${currentTheme.text}`}>
           <h3 className="text-xl font-semibold">{title}</h3>
-          <p>{description}</p>
+          <ul className="list-disc ml-6 mt-2">
+            {description.map((detail, index) => (
+              <li key={index}>{detail}</li>
+            ))}
+          </ul>
         </div>
     );
 }
