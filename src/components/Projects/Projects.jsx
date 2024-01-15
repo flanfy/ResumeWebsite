@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import Section from '../Section';
 import Project from './Project';
 import { PROJECT } from '../../data';
