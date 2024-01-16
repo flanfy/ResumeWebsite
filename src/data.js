@@ -52,7 +52,7 @@ export const IMAGES = [
 
   export const EXPERIENCE = [
     {
-      title: "Web Developer",
+      title: "Full-stack Developer",
       company: "MBArtist",
       location: "Cambridge, ON",
       date: "January 2023 - July 2023",
