@@ -7,52 +7,40 @@ export const IMAGES = [
   ];
 
   export const LANGUAGES = [
-    "HTML",
+    "HTML5",
     "CSS",
     "C#",
-    "PHP",
     "Liquid",
     "JSON",
     "JavaScript",
-    "TypeScript",
     "Python",
-    "Java",
     "SQL",
-    "PL/SQL",
-    "TSQL",
-    "VBA"
   ]
 
   export const TECH = [
-    "Git",
+    "Visual Studio Code",
+    "GitHub",
     "Linux",
     "Jira",
-    "ASP.NET",
-    "MVC",
+    "ASP.NET Core",
     "Blazor WebAssembly",
     "REST API",
     "Selenium",
     "NUnit",
-    "Android Studio",
     "Docker",
     "React",
     "NodeJS",
     "Express",
-    "Apache",
     "Shopify",
-    "Bootstrap",
-    "Snowflake",
-    "ETL",
     "Power BI",
     "PostgreSQL",
     "Tableau",
     "Microsoft Excel",
-    "Visual Studio Code"
   ]
 
   export const EXPERIENCE = [
     {
-      title: "Full-stack Developer",
+      title: "Web Developer",
       company: "MBArtist",
       location: "Cambridge, ON",
       date: "January 2023 - July 2023",
@@ -64,7 +52,7 @@ export const IMAGES = [
       ],
     },
     {
-      title: "Database Migration Specialist",
+      title: "Shared Services Associate",
       company: "OpenText Corporation",
       location: "Waterloo, ON",
       date: "February 2017 - August 2017",
@@ -95,7 +83,7 @@ export const IMAGES = [
     {
       title: "E-commerce Store",
       description: [
-        "Built a full-stack E-Commerce website using C#, Blazor WebAssembly, Web API, .NET 7, and SQL Server.",
+        "Built a full-stack E-Commerce website using C#, Blazor WebAssembly, Web API, Entity Framework Core, and SQL Server.",
         "Implemented authentication with JSON Web Tokens.",
         "Integrated Stripe as payment processor.",
       ]
