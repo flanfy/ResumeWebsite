@@ -11,7 +11,6 @@ export const IMAGES = [
     "CSS",
     "C#",
     "Liquid",
-    "JSON",
     "JavaScript",
     "Python",
     "SQL",
